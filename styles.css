@@ -407,17 +407,18 @@ div.footer h6 {
     }
 }
 
-@media only screen and (max-width: 768px) {
-    div.hero-background-pos{
-        position:absolute;
-        left: 75%;
-    }
-}
-
 @media only screen and (max-width: 1024px) {
     div.hero-background-pos{
-        position:absolute;
-        left: 75%;
+        /* left: 75%;  */
+    }
+
+    div.background {
+        padding-left: 1%;
+        width: 60%;
+    }
+
+    div.background h4{
+        padding-left: 7%;
     }
 }
 
@@ -469,8 +470,8 @@ div.footer h6 {
     }
     div.hero-background-pos{
         position: relative;
-        right: 0;
-        left: 0;
+        right: 0px;
+        left: 0px;
         margin-bottom: 14%;
     }
 
