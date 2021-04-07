@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
+    overflow-x: hidden;
 }
 
 div.nav-bar {
@@ -344,4 +345,153 @@ div.footer h6 {
     color: #88949B;
     font-size: 1rem;
     padding-top: 6rem;
+}
+
+@media only screen and (max-width: 600px) {
+
+    div.hero-section{
+        padding: 7% 2%;
+    }
+
+    div.nav-bar{
+        padding: 4.5% 5%;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+    }
+
+    div.hero-content-heading{
+        margin-top: 25%;
+    }
+    ul.nav-links{
+        margin-top: 4%;
+        width: 90%;
+    }
+
+    ul li{
+        margin: 0 2%;
+        font-size: 0.99em;
+    }
+
+    div.hero-background{
+        padding: 9% 2%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    div.hero-background-pos{
+        position: relative;
+        right: 0;
+        left: 0;
+        margin-bottom: 14%;
+    }
+
+    div.background{
+        width: 90%;
+        padding: 6% 3%;
+        height: auto;
+    }
+
+    div.snapshot-box,div.snapshot-box-content,div.footer-input,div.nav-bar{
+        flex-direction: column;
+    }
+    div.footer-input{
+        padding-top: 2%;
+        margin-top: 5%;
+    }
+    div.footer-input input{
+        width: 90%;
+        margin-bottom: 5%;
+    }
+    div.footer-textarea textarea{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    div.hero-background-pos{
+        position:absolute;
+        left: 75%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    div.hero-background-pos{
+        position:absolute;
+        left: 75%;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+
+    div.hero-section{
+        padding: 7% 2%;
+    }
+
+    div.nav-bar{
+        padding: 4.5% 5%;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+    }
+
+    div.hero-content-heading{
+        margin-top: 25%;
+    }
+    ul.nav-links{
+        margin-top: 4%;
+        width: 90%;
+    }
+
+    ul li{
+        margin: 0 2%;
+        font-size: 0.8em;
+    }
+
+    div.img{
+        width: 100%;
+        margin: 3% 0;
+    }
+
+    div.img img{
+        width: 100%;
+    }
+
+    div.gallery-section{
+        width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    div.hero-background{
+        padding: 9% 2%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    div.hero-background-pos{
+        position: relative;
+        right: 0;
+        left: 0;
+        margin-bottom: 14%;
+    }
+
+    div.background{
+        width: 90%;
+        padding: 6% 3%;
+        height: auto;
+    }
+
+    div.snapshot-box,div.snapshot-box-content,div.footer-input,div.nav-bar{
+        flex-direction: column;
+    }
+    div.footer-input{
+        padding-top: 2%;
+        margin-top: 5%;
+    }
+    div.footer-input input{
+        width: 90%;
+        margin-bottom: 5%;
+    }
+    div.footer-textarea textarea{
+        width: 90%;
+    }
 }
