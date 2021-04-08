@@ -354,20 +354,47 @@ div.footer h6 {
     }
 
     div.nav-bar{
+        display: block;
         padding: 4.5% 5%;
         position: fixed;
         top: 0;
         z-index: 1;
     }
 
+    .menu-sign{
+        position: absolute;
+        width: 10%;
+        z-index: 1;
+        margin-top: 2%;
+        margin-right: 3%;
+        float: right;
+        top: 0;
+        right: 0;
+    }
+
     div.hero-content-heading{
         margin-top: 25%;
     }
     ul.nav-links{
+        display: none;
         margin-top: 4%;
         width: 90%;
     }
+    .responsiv-menu{
+        width:90%;
+        display: flex!important;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .responsiv-menu li{
+        padding:4% 0;
+        font-size: 1.5em;
+        transition: ease-in-out 1.5s;
+    }
+    div.background p{
+        width: 100%;
+    }
     ul li{
         margin: 0 2%;
         font-size: 0.99em;
@@ -391,7 +418,7 @@ div.footer h6 {
         height: auto;
     }
 
-    div.snapshot-box,div.snapshot-box-content,div.footer-input,div.nav-bar{
+    div.snapshot-box,div.snapshot-box-content,div.footer-input{
         flex-direction: column;
     }
     div.footer-input{
@@ -407,18 +434,17 @@ div.footer h6 {
     }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .menu-sign{
+        display: none;
+    }
     div.hero-background-pos{
-        /* left: 75%;  */
-    }
+         left: 75%;  
+    } 
 
-    div.background p{
-        padding-left: 1%;
-        width: 80%;
-    }
-
-    div.background h4{
-        padding-left: 7%;
+    div.nav-bar{
+        padding-top: 4%;
     }
 }
 
