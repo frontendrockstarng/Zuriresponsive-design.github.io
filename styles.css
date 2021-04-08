@@ -447,7 +447,11 @@ div.footer h6 {
         padding-top: 4%;
     }
 }
-
+@media only screen and (min-width: 1130px){
+       .menu-sign{
+        display: none;
+    }
+}
 @media only screen and (max-width: 300px) {
 
     div.hero-section{
