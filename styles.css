@@ -88,7 +88,7 @@ div.hero-content-btn a {
     letter-spacing: 2px;
 }
 .menu-sign{
-    display:none;
+    opacity:0;
 }
 div.hero-background {
     background: #f0f0f0;
