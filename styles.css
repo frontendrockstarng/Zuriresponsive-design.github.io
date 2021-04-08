@@ -87,7 +87,9 @@ div.hero-content-btn a {
     border-radius: 3px;
     letter-spacing: 2px;
 }
-
+.menu-sign{
+    disply:none;
+}
 div.hero-background {
     background: #f0f0f0;
     padding: 10rem;
